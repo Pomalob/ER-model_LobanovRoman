@@ -1,0 +1,40 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ED290608-8785-8433-7964-2A4FEFCEB903" name="Orders">
+<createdBy>Pomochka</createdBy>
+<createdTime>2024-04-12 09:05:33 UTC</createdTime>
+<ownerDesignName>ER_L.Roman</ownerDesignName>
+<engineerTo>
+<item key="824CFA09-1A46-3178-986F-E6397D0D78EE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<synonymToDisplay>Заказ</synonymToDisplay>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Дата" id="182A44F3-812B-BD51-2DC9-07095393BDB3">
+<createdBy>Pomochka</createdBy>
+<createdTime>2024-04-12 09:09:44 UTC</createdTime>
+<ownerDesignName>ER_L.Roman</ownerDesignName>
+<engineerTo>
+<item key="824CFA09-1A46-3178-986F-E6397D0D78EE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Время" id="EEF4BE25-6601-B9D2-76CE-6350DB9D5D67">
+<createdBy>Pomochka</createdBy>
+<createdTime>2024-04-12 09:09:49 UTC</createdTime>
+<ownerDesignName>ER_L.Roman</ownerDesignName>
+<engineerTo>
+<item key="824CFA09-1A46-3178-986F-E6397D0D78EE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

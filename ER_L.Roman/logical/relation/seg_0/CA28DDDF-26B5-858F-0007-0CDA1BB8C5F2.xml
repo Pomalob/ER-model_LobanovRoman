@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="client-order" directorySegmentName="seg_0" id="CA28DDDF-26B5-858F-0007-0CDA1BB8C5F2">
+<createdBy>Pomochka</createdBy>
+<createdTime>2024-04-12 09:12:50 UTC</createdTime>
+<ownerDesignName>ER_L.Roman</ownerDesignName>
+<engineerTo>
+<item key="824CFA09-1A46-3178-986F-E6397D0D78EE" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Делает</nameOnSource>
+<nameOnTarget>Оформляется</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5274791C-A422-1439-55B3-7C826B324977</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>ED290608-8785-8433-7964-2A4FEFCEB903</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

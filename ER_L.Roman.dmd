@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ER_L.Roman" id="764F4A10-0FFF-DF5D-E3A5-59133ED8AB56" version="3.5">
+<createdBy>Pomochka</createdBy>
+<createdTime>2024-04-12 08:18:20 UTC</createdTime>
+<ownerDesignName>ER_L.Roman</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>764F4A10-0FFF-DF5D-E3A5-59133ED8AB56</designId>
+</OSDM_Design>

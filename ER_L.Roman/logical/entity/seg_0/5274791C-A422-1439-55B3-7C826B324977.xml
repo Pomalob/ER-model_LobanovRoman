@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5274791C-A422-1439-55B3-7C826B324977" name="Clients">
+<createdBy>Pomochka</createdBy>
+<createdTime>2024-04-12 08:36:17 UTC</createdTime>
+<ownerDesignName>ER_L.Roman</ownerDesignName>
+<engineerTo>
+<item key="824CFA09-1A46-3178-986F-E6397D0D78EE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<synonymToDisplay>Клиенты</synonymToDisplay>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Паспортные данные" id="9868C4E0-AC02-01F9-B6EA-E40D3953AE59">
+<createdBy>Pomochka</createdBy>
+<createdTime>2024-04-12 08:36:42 UTC</createdTime>
+<ownerDesignName>ER_L.Roman</ownerDesignName>
+<engineerTo>
+<item key="824CFA09-1A46-3178-986F-E6397D0D78EE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Водительское удостоверение" id="047FAD85-084F-6869-3C54-50DB19E23354">
+<createdBy>Pomochka</createdBy>
+<createdTime>2024-04-12 08:38:07 UTC</createdTime>
+<ownerDesignName>ER_L.Roman</ownerDesignName>
+<engineerTo>
+<item key="824CFA09-1A46-3178-986F-E6397D0D78EE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="История удостоверений" id="AD83D980-FDB9-48D9-9463-DA2DA672154E">
+<createdBy>Pomochka</createdBy>
+<createdTime>2024-04-12 08:39:04 UTC</createdTime>
+<ownerDesignName>ER_L.Roman</ownerDesignName>
+<engineerTo>
+<item key="824CFA09-1A46-3178-986F-E6397D0D78EE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Нарушения ПДД" id="C3A3EEA7-34D9-4FBC-4F94-57ABEC8FE778">
+<createdBy>Pomochka</createdBy>
+<createdTime>2024-04-12 08:39:14 UTC</createdTime>
+<ownerDesignName>ER_L.Roman</ownerDesignName>
+<engineerTo>
+<item key="824CFA09-1A46-3178-986F-E6397D0D78EE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
